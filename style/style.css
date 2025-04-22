@@ -105,6 +105,10 @@ border-radius: 8px;
 background-color: #673de6;
 }
 
+.button_get:hover{
+background-color:  #5025d1 ;
+}
+
 .button_get a {
     text-decoration: none;
 
