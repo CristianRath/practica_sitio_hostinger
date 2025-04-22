@@ -110,7 +110,8 @@ background-color:  #5025d1 ;
 }
 
 .button_get a {
-    text-decoration: none;
+    text-decoration:none;
+    font-weight: 700;
 
 }
 
