@@ -2,8 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    /* --ff-text: "DM Sans",sans-serif; */
 }
+
+/* :root{
+    --ff-text: "DM Sans",sans-serif;
+    --primary-color-500: y colocar el color; 
+    --primary-color-600: y colocar el color;
+    --primary-color-700: y colocar el color;
+   }
+para lamar las variables se coloca por ejemplo var--ff-text
+EN ROOT SE COLOCAN LAS VARIABLES, PRA LUEGO SER UTILIZADA EN EL CODIGO (ls variables comienzan con --y luego el nombre que se desea en la variable, por ejemplo: --color-primario: y definir el color;)*/ 
 
 h2{
     font-size: 36px;
@@ -28,6 +37,7 @@ p{
     flex-direction:column ;
     justify-content:center ;
     align-items: center;
+    
 }
 
 
@@ -39,12 +49,13 @@ p{
 }
 
 .text_box_migration {
-    width:1128px ;
+    width:1128px ;    
     height:112px ;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0 0 24px;
+    
 }
 
 .box_cards{
@@ -56,6 +67,7 @@ p{
     justify-content: space-evenly;
     align-items: center;
     gap: 24px;
+    
 }
 
 
@@ -115,3 +127,18 @@ background-color:  #5025d1 ;
 
 }
 
+@media screen and (max-width: 1124px)  {
+    .box_cards{
+        flex-direction:column
+    }
+    .box_master{
+        max-width: 688px; 
+    }
+        
+}
+
+@media screen and (max-width:760px) {
+    .box_master{
+        max-width: 508px;
+    }
+}
